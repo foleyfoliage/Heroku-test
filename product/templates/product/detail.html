@@ -1,0 +1,33 @@
+{% extends 'product/base.html' %}
+{% block title %}Product{% endblock %}
+{% block body %}
+
+<img src="{{ flavour.flavour_image.url }}" class="cats">
+
+<h1>{{ flavour.flavour_title }}</h1>
+<h2>{{ flavour.company }}</h2>
+
+{% if error_message %}
+<p><strong>{{ error }}</strong></p>
+{% endif %}
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
